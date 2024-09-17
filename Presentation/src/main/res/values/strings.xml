@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Easy Buy</string>
+    <string name="k">K</string>
+    <string name="m">M</string>
+    <string name="b">B</string>
+    <string name="ok">Okay</string>
+    <string name="internet_connection">Please check your internet Connection!</string>
+</resources>
