@@ -13,30 +13,4 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:navGraph="@navigation/auth_navigation" />
-
-    <!--    <ImageView-->
-    <!--        android:id="@+id/back_splash"-->
-    <!--        android:layout_width="300dp"-->
-    <!--        android:layout_height="300dp"-->
-    <!--        android:layout_marginStart="@dimen/_15ssp"-->
-    <!--        android:layout_marginTop="@dimen/_15ssp"-->
-    <!--        android:background="@drawable/splash_back"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toTopOf="parent" />-->
-
-    <!--    <ImageView-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_marginEnd="@dimen/_10ssp"-->
-    <!--        android:layout_marginBottom="@dimen/_30ssp"-->
-    <!--        android:elevation="@dimen/_6ssp"-->
-    <!--        android:src="@drawable/app_ic"-->
-    <!--        app:layout_constraintBottom_toBottomOf="@id/back_splash"-->
-    <!--        app:layout_constraintEnd_toEndOf="@id/back_splash"-->
-    <!--        app:layout_constraintStart_toStartOf="@id/back_splash"-->
-    <!--        app:layout_constraintTop_toTopOf="@id/back_splash" />-->
-
-
 </LinearLayout>
