@@ -5,4 +5,6 @@
     <string name="b">B</string>
     <string name="ok">Okay</string>
     <string name="internet_connection">Please check your internet Connection!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

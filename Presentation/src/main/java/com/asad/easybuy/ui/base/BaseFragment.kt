@@ -11,7 +11,7 @@ abstract class BaseFragment<VB : ViewBinding> : Fragment() {
 
     protected abstract fun inflateLayout(layoutInflater: LayoutInflater): VB
 
-    private val binding: VB by lazy { inflateLayout(layoutInflater) }
+    val binding: VB by lazy { inflateLayout(layoutInflater) }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
