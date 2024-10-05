@@ -10,7 +10,7 @@
         android:name="com.asad.easybuy.ui.auth.splash.SplashFragment"
         android:label="SPLASH"
         tools:layout="@layout/fragment_splash">
-<!--        <action-->
+        <!--        <action-->
         <!--            android:id="@+id/action_splashFragmentID_to_loginFragmentID"-->
         <!--            app:destination="@id/loginFragmentID" />-->
     </fragment>
