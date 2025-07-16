@@ -10,12 +10,12 @@ plugins {
 
 android {
     namespace = "com.asad.easybuy"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.asad.easybuy"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -96,8 +96,8 @@ dependencies {
     implementation ("com.github.bumptech.glide:glide:4.16.0")
 
     // hilt;
-    implementation("com.google.dagger:hilt-android:2.48.1")
-    kapt("com.google.dagger:hilt-android-compiler:2.48.1")
+    implementation("com.google.dagger:hilt-android:2.56.2")
+    kapt("com.google.dagger:hilt-android-compiler:2.56.2")
 
     //ssp
     implementation ("com.intuit.ssp:ssp-android:1.1.0")
