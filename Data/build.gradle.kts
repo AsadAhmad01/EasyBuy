@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.asad.data"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 24
@@ -43,8 +43,8 @@ dependencies {
     implementation(project(":Domain"))
 
     //hilt
-    implementation("com.google.dagger:hilt-android:2.48.1")
-    kapt("com.google.dagger:hilt-android-compiler:2.48.1")
+    implementation("com.google.dagger:hilt-android:2.56.2")
+    kapt("com.google.dagger:hilt-android-compiler:2.56.2")
 
     //Retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
